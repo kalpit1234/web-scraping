@@ -2,7 +2,8 @@ import os
 import serpapi
 from dotenv import load_dotenv
 import pandas as pd
-mobile_number=[]
+mobile_number
+SERP_API_KEY='6aef7b9d52284b4636fb58dfa191ca28f2440e43ff33bd4e822f64e86304998a'
 load_dotenv()
 api_key=os.getenv('SERP_API_KEY')
 client=serpapi.Client(api_key=api_key)
